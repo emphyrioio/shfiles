@@ -12,11 +12,17 @@
 #   :: ::::  ::   :::  :::: ::   ::   :::     :::: ::    ::: :::  ::   :::   ::   ::          ::     #
 #  :: : ::    :   : :  :: : :     :   : :     :: : :     :: :: :   :   : :  :     :           :      #
 #                                                                                                    #
-#                                                                                                    #
 #              Script  : nvim_create_conf_dir.sh                                                     #
 #              Author  : RB - 2023                                                                   #
-#              Purpose : creates NeoVim configuration directories.                                   #
-#                                                                                                    #
+#              Purpose : creates NeoVim configuration directories.                                   #  
+#              .config/                                                                              # 
+#               └── nvim                                                                             #
+#                   ├── after                                                                        #
+#                   │   ├── ftplugin                                                                 #
+#                   │   └── plugin                                                                   #
+#                   ├── lua                                                                          #
+#                   └── plugin                                                                       #
+#                                                                                                    # 
 #####################################################################################################@
 
 # Configuration directories
